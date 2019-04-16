@@ -15,6 +15,8 @@ Thus, I created spkg to make it easier to test and pull software.
 
 # - Installation (WIP, not ready yet) -
 
+spkg is not ready yet for Libterm, but an alpha release of spkg for OpenTerm will be avaliable soon (once I get the install and remove systems working and all the confusing github repo stuff.)
+
 ## OpenTerm
 Run this command in your shell.
 
