@@ -11,6 +11,7 @@ I know that Libterm already has something like this, but before you accuse me of
 OpenTerm did not have a package manager, so I created one.
 But for Libterm, there was no external repo support for its inbuilt package manager.
 Thus, I created spkg to make it easier to test and pull software.
+(By the way, spkg uses [this](https://github.com/sn3ksoftware/sandboxrepo) repository by default.)
 
 # - Installation (WIP, not ready yet) -
 
