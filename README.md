@@ -32,7 +32,7 @@ curl -O https://raw.githubusercontent.com/sn3ksoftware/sandboxrepo/master/opente
 # - FAQ -
 Q: I thot that Libterm has a package manager already?
 
-A: Read the point under user-submitted software.
+A: Read the point under 'What's the point of spkg?'
 
 Q: Who is spkg for?
 
