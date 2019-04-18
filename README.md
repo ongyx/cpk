@@ -19,10 +19,11 @@ spkg is not ready yet for Libterm, but an alpha release of spkg for OpenTerm wil
 (UPDATE: The repository commands now work. Soon enough, there will be a fully functioning version of spkg for OpenTerm now.)
 
 ## OpenTerm
-Run this command in your shell.
+Run this commands in your shell.
 
 ```
-curl -O https://raw.githubusercontent.com/sn3ksoftware/sandpkg/master/openterm/install.cub && cub install.cub
+curl -O https://raw.githubusercontent.com/sn3ksoftware/sandpkg/master/openterm/install.cub
+cub install.cub
 ```
 
 ## Libterm
