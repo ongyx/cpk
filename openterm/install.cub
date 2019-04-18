@@ -1,0 +1,15 @@
+print("Downloading spkg script...")
+if shell("curl -O https://raw.githubusercontent.com/sn3ksoftware/sandpkg/master/openterm/spkg.tar.gz") == 0 {
+	print("\nExtracting to ~/.scripts...")
+	shell("tar -C ~/.scripts -zxvf spkg.tar.gz")
+	print("\nspkg installed.")
+	print("\nCopying setup files...")
+	shell("mkdir ~/.sandcfg")
+	shell("mkdir ~/.sandcfg/repo")
+	shell("mv ~/.scripts/spkg.prideland/mainrepo.txt ~/.sandcfg/repo")
+	shell("mv ~/.scripts/spkg.prideland/repolist.txt ~/.sandcfg/repo")
+	print("\n\nDone.")
+} else {
+	print("Error! Could not connect to repo! (Check your internet connection?)")
+	exit()
+}
