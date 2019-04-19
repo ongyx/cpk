@@ -23,7 +23,7 @@ spkg is not ready yet for Libterm, but an alpha release of spkg for OpenTerm wil
 Run this commands in your shell.
 
 ```
-curl -O https://raw.githubusercontent.com/sn3ksoftware/sandpkg/master/openterm/install.cub
+curl -O https://raw.githubusercontent.com/sn3ksoftware/sandpkg/testing/openterm/install.cub
 cub install.cub
 ```
 
@@ -31,7 +31,7 @@ cub install.cub
 Run this command:
 
 ```
-curl -O https://raw.githubusercontent.com/sn3ksoftware/sandboxrepo/master/openterm/install.sh && sh install.sh
+curl -O https://raw.githubusercontent.com/sn3ksoftware/sandpkg/testing/libterm/install.sh && sh install.sh
 ```
 
 # - FAQ -
