@@ -1,5 +1,6 @@
 # sandpkg
-Welcome to the repository for spkg (Sandboxed Packaged Manager)!
+Welcome to the repository for spkg alpha.(Sandboxed Packaged Manager)!
+(This is a branch for versions being tested.)
 
 ## Why spkg?
 I wanted to try to integrate pip into Libterm by running the default install script,
