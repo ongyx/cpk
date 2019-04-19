@@ -17,13 +17,13 @@ Thus, I created spkg to make it easier to test and pull software.
 
 spkg is not ready yet for Libterm, but an alpha release of spkg for OpenTerm will be avaliable soon (once I get the install and remove systems working and all the confusing github repo stuff.)
 (UPDATE: The repository commands now work. Soon enough, there will be a fully functioning version of spkg for OpenTerm now.)
-(Alpha and beta versions of spkg are stored in the testing branch.)
+(Alpha and beta versions of spkg will be stored in the testing branch for now.)
 
 ## OpenTerm
 Run this commands in your shell.
 
 ```
-curl -O https://raw.githubusercontent.com/sn3ksoftware/sandpkg/master/openterm/install.cub
+curl -O https://raw.githubusercontent.com/sn3ksoftware/sandpkg/testing/openterm/install.cub
 cub install.cub
 ```
 
@@ -31,7 +31,7 @@ cub install.cub
 Run this command:
 
 ```
-curl -O https://raw.githubusercontent.com/sn3ksoftware/sandboxrepo/master/openterm/install.sh && sh install.sh
+curl -O https://raw.githubusercontent.com/sn3ksoftware/sandpkg/testing/libterm/install.sh && sh install.sh
 ```
 
 # - FAQ -
