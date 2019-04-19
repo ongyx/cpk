@@ -17,6 +17,7 @@ Thus, I created spkg to make it easier to test and pull software.
 
 spkg is not ready yet for Libterm, but an alpha release of spkg for OpenTerm will be avaliable soon (once I get the install and remove systems working and all the confusing github repo stuff.)
 (UPDATE: The repository commands now work. Soon enough, there will be a fully functioning version of spkg for OpenTerm now.)
+(Alpha and beta versions of spkg are stored in the testing branch.)
 
 ## OpenTerm
 Run this commands in your shell.
