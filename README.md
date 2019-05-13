@@ -2,6 +2,8 @@
 Welcome to the repository for spkg alpha.(Sandboxed Packaged Manager)!
 (This is a branch for versions being tested.)
 
+spkg is now up to version 0.01a for OpenTerm!
+
 ## Why spkg?
 I wanted to try to integrate pip into Libterm by running the default install script,
 but it does not work by itself. So, I started this repo to host packages that I modified to work in Libterm.
@@ -14,11 +16,9 @@ But for Libterm, there was no external repo support for its inbuilt package mana
 Thus, I created spkg to make it easier to test and pull software.
 (By the way, spkg uses [this](https://github.com/sn3ksoftware/sandboxrepo) repository by default.)
 
-# - Installation (WIP, not ready yet) -
+# - Installation -
 
-spkg is not ready yet for Libterm, but an alpha release of spkg for OpenTerm will be avaliable soon (once I get the install and remove systems working and all the confusing github repo stuff.)
-(UPDATE: The repository commands now work. Soon enough, there will be a fully functioning version of spkg for OpenTerm now.)
-(Alpha and beta versions are stored in the testing branch.)
+spkg is finally ready for OpenTerm! You can download the alpha release by following the instructions below.
 
 ## OpenTerm
 Run this commands in your shell.
@@ -28,7 +28,7 @@ curl -O https://raw.githubusercontent.com/sn3ksoftware/sandpkg/testing/openterm/
 cub install.cub
 ```
 
-## Libterm
+## Libterm(WIP)
 Run this command:
 
 ```
