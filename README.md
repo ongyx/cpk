@@ -11,38 +11,7 @@ I know that Libterm already has something like this, but before you accuse me of
 OpenTerm did not have a package manager, so I created one.
 But for Libterm, there was no external repo support for its inbuilt package manager.
 Thus, I created spkg to make it easier to test and pull software.
-(By the way, spkg uses [this](https://github.com/sn3ksoftware/sandboxrepo) repository by default.)
+(By the way, spkg uses [this](https://github.com/sn3ksoftware/sandboxrepo) repo by default.
 
-# - Installation (WIP, not ready yet) -
-
-spkg is not ready yet for Libterm, but an alpha release of spkg for OpenTerm will be avaliable soon (once I get the install and remove systems working and all the confusing github repo stuff.)
-(UPDATE: The repository commands now work. Soon enough, there will be a fully functioning version of spkg for OpenTerm now.)
-(Alpha and beta versions of spkg will be stored in the testing branch for now.)
-
-## OpenTerm
-Run this commands in your shell.
-
-```
-curl -O https://raw.githubusercontent.com/sn3ksoftware/sandpkg/testing/openterm/install.cub
-cub install.cub
-```
-
-## Libterm
-Run this command:
-
-```
-curl -O https://raw.githubusercontent.com/sn3ksoftware/sandpkg/testing/libterm/install.sh && sh install.sh
-```
-
-# - FAQ -
-Q: I thot that Libterm has a package manager already?
-
-A: Read the point under 'What's the point of spkg?'
-
-Q: Who is spkg for?
-
-A: CLI masters and programmers who have at least basic command-line skills.
-
-Q: Can you please hurry up on the Libterm version? I mean, OpenTerm does not exist on the App Store anymore, etc.
-
-A: I can't really do that because I have more experience working with the Cub coding language right now. As for the Python-based implementation of Libterm, it is a lot easier to port programs over from Pythonista [for example](https://github.com/jsbain/GitHubGet), but my knowledge of Python is less so than that of Cub, unfortunately.
+## Installation
+See the [testing](https://github.com/sn3ksoftware/sandpkg/tree/testing) branch for instructions.
