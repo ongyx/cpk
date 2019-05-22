@@ -1,0 +1,19 @@
+print("\nDownloading spkg script...\n\n")
+shell("cd ~/")
+shell("curl -O https://raw.githubusercontent.com/sn3ksoftware/sandpkg/testing/openterm/spkg.tar.gz")
+if shell("du ~/spkg.tar.gz") == 0 {
+	shell("sleep 1")
+	print("\nExtracting to ~/.scripts...\n")
+	shell("tar -C ~/.scripts -zxvf spkg.tar.gz")
+	print("\nspkg installed.\n")
+	print("\nCopying setup files...\n")
+	shell("mkdir ~/.sandcfg")
+	shell("mkdir ~/.sandcfg/repo")
+	shell("echo sn3ksoftware/sandboxrepo | tee ~/.sandcfg/repo/repolist.txt")
+	shell("echo sn3ksoftware/sandboxrepo | tee ~/.sandcfg/repo/mainrepo.txt")
+	print("\nDone.\n")
+	shell("cd ~/")
+} else {
+	print("Error! Could not connect to repo! (Check your internet connection?)")
+	exit()
+}
