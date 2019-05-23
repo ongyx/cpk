@@ -2,7 +2,7 @@
 Welcome to the repository for spkg alpha.(Sandboxed Packaged Manager)!
 (This is a branch for versions being tested.)
 
-spkg is now up to version 0.01a for OpenTerm!
+spkg is now up version 0.02a for OpenTerm!
 
 ## Why spkg?
 I wanted to try to integrate pip into Libterm by running the default install script,
