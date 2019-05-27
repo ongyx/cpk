@@ -1,0 +1,29 @@
+Version 0.03a_openterm:
+GPLv3 Update!
+Adds proper GPLv3 license documentation and refrences in source code.
+
+Version 0.02a_openterm:
+Added better auto-cleanup code after installation of packages
+
+Version 0.01a_openterm:
+Added major bugfixes, and now spkg is fully functional!
+
+Version pr13.05.19_openterm:
+Added install command
+Added remove command
+Added list command
+
+Version pr08.05.19_openterm:
+Added temporary bugfix for credits
+(through a config.ini file.)
+Corrected typos in help screen
+
+Version pr07.05.19_openterm:
+Added init command to erase all third-party repos and to erase all packages installed by spkg(wip)
+
+Version pr06.05.19_openterm:
+Added support for non-interactive commands.
+Corrected typos in help and updated help text according to non-interactive mode.
+
+Version pr03.05.19_openterm:
+Split spkg command file into stable and testing branches (both pre-release.)
