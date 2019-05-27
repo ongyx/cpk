@@ -21,6 +21,7 @@ Thus, I created spkg to make it easier to test and pull software.
 spkg is finally ready for OpenTerm! You can download the alpha release by following the instructions below.
 
 ## OpenTerm
+(The installer is a bit buggy right now, so try running it at least 3 times if it does not work the first time.)
 Run this commands in your shell.
 
 ```
