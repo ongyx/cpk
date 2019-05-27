@@ -13,7 +13,7 @@ if shell("du ~/spkg.tar.gz") == 0 {
 	shell("echo sn3ksoftware/sandboxrepo | tee ~/.sandcfg/repo/mainrepo.txt")
 	print("\nRetreving GPLv3 license...\n")
 	shell("curl -# -O https://raw.githubusercontent.com/sn3ksoftware/sandpkg/testing/LICENSE")
-	shell("mv LICENSE ~/.sandcfg")
+	shell("mv ~/LICENSE ~/.sandcfg")
 	print("\nDone.\n")
 	shell("cd ~/")
 } else {
