@@ -1,6 +1,6 @@
 print("\nDownloading spkg script...\n\n")
 shell("cd ~/")
-shell("curl -O https://raw.githubusercontent.com/sn3ksoftware/sandpkg/testing/openterm/spkg.tar.gz")
+shell("curl -O -# https://raw.githubusercontent.com/sn3ksoftware/sandpkg/testing/openterm/spkg.tar.gz")
 if shell("du ~/spkg.tar.gz") == 0 {
 	shell("sleep 1")
 	print("\nExtracting to ~/.scripts...\n")
@@ -11,6 +11,9 @@ if shell("du ~/spkg.tar.gz") == 0 {
 	shell("mkdir ~/.sandcfg/repo")
 	shell("echo sn3ksoftware/sandboxrepo | tee ~/.sandcfg/repo/repolist.txt")
 	shell("echo sn3ksoftware/sandboxrepo | tee ~/.sandcfg/repo/mainrepo.txt")
+	print("\nRetreving GPLv3 license...\n")
+	shell("curl -# -O https://raw.githubusercontent.com/sn3ksoftware/sandpkg/testing/LICENSE")
+	shell("mv LICENSE ~/.sandcfg")
 	print("\nDone.\n")
 	shell("cd ~/")
 } else {
