@@ -1,22 +1,46 @@
-print("\nDownloading spkg script...\n\n")
-shell("cd ~/")
-shell("curl -O -# https://raw.githubusercontent.com/sn3ksoftware/sandpkg/testing/openterm/spkg.tar.gz")
-if shell("du ~/spkg.tar.gz") == 0 {
-	shell("sleep 1")
-	print("\nExtracting to ~/.scripts...\n")
-	shell("tar -C ~/.scripts -zxvf spkg.tar.gz")
-	print("\nspkg installed.\n")
-	print("\nCopying setup files...\n")
-	shell("mkdir ~/.sandcfg")
-	shell("mkdir ~/.sandcfg/repo")
-	shell("echo sn3ksoftware/sandboxrepo | tee ~/.sandcfg/repo/repolist.txt")
-	shell("echo sn3ksoftware/sandboxrepo | tee ~/.sandcfg/repo/mainrepo.txt")
-	print("\nRetreving GPLv3 license...\n")
-	shell("curl -# -O https://raw.githubusercontent.com/sn3ksoftware/sandpkg/testing/LICENSE")
-	shell("mv ~/LICENSE ~/.sandcfg")
-	print("\nDone.\n")
-	shell("cd ~/")
-} else {
-	print("Error! Could not connect to repo! (Check your internet connection?)")
-	exit()
+
+// spkg installer by Ong Yong Xin 
+// ©️ 2019
+// code licensed under GPLv3.
+
+func install() {
+	print("\n\n-Sandboxed Package Manager Interactive Installer-\n")
+	print("\nv1.01\n")
+	print("\nType [y] to start, or type [n] to abort.\n>>> ")
+	choice = readLine()
+	if choice == "y" {
+		print("\nDownloading spkg script...\n\n")
+		shell("cd ~/")
+		shell("curl -O -# https://raw.githubusercontent.com/sn3ksoftware/sandpkg/testing/openterm/spkg.tar.gz")
+		if shell("du ~/spkg.tar.gz") == 0 {
+			shell("sleep 1")
+			print("\nExtracting to ~/.scripts...\n")
+			shell("tar -C ~/.scripts -zxvf spkg.tar.gz")
+			print("\nspkg installed.\n")
+			print("\nCopying setup files...\n")
+			shell("mkdir ~/.sandcfg")
+			shell("mkdir ~/.sandcfg/repo")
+			shell("echo sn3ksoftware/sandboxrepo | tee ~/.sandcfg/repo/repolist.txt")
+			shell("echo sn3ksoftware/sandboxrepo | tee ~/.sandcfg/repo/mainrepo.txt")
+			print("\nRetreving GPLv3 license...\n")
+			shell("curl -# -O https://raw.githubusercontent.com/sn3ksoftware/sandpkg/testing/LICENSE")
+			shell("mv LICENSE ~/.sandcfg/")
+			print("\nCleaning up...\n")
+			shell("cd ~/")
+			shell("rm spkg.tar.gz")
+			print("\nDone.\n")
+		} else {
+			print("Error! Could not connect to repo! (Check your internet connection?)")
+			exit()
+		}
+	} else if choice == "n" {
+		print("\nAbort.\n")
+		exit()
+	} else {
+		print("\nInvaid choice.\nAbort.\n")
+		exit()
+	}
 }
+
+// Run installer.
+install()
