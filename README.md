@@ -25,8 +25,9 @@ spkg is finally ready for OpenTerm! You can download the alpha release by follow
 Run this commands in your shell.
 
 ```
-curl -O https://raw.githubusercontent.com/sn3ksoftware/sandpkg/testing/openterm/install.cub
-cub install.cub
+curl -O https://raw.githubusercontent.com/sn3ksoftware/sandpkg/testing/openterm/sandinstall.tar.gz
+tar -C ~/.scripts -zxvf sandinstall.tar.gz
+sandinstall
 ```
 
 ## Libterm(WIP)
