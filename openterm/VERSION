@@ -1,0 +1,5 @@
+// This is the version file for spkg (OpenTerm.)
+// Do not modify unless there is a new version.
+// Used by spkg to update itself by comparing versions.
+// VERSION:
+0.03a
