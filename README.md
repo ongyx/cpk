@@ -39,7 +39,7 @@ curl -O https://raw.githubusercontent.com/sn3ksoftware/sandpkg/testing/libterm/i
 # - FAQ -
 Q: I thot that Libterm has a package manager already?
 
-A: Read the point under 'What's the point of 
+A: Read the point under 'What's the point of spkg?’
 
 Q: Who is spkg for?
 
