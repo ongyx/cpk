@@ -1,3 +1,8 @@
+Version 0.11a_openterm:
+MIT Update!
+All code written by me (sn3ksoftware) here is now
+under the MIT license as it is more liberal.
+
 Version 0.03a_openterm:
 GPLv3 Update!
 Adds proper GPLv3 license documentation and refrences in source code.
