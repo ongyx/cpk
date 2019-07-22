@@ -37,6 +37,7 @@ sandinstall
 Later on, spkg was rewritten for the Python-based implementation of Libterm.
 So far, the code is ready for a prerelease, but there might be serious bugs.
 Please put in a issue if you find one.
+For now, there is no installer script, you directly unzip spkg to the Library/scripts folder.
 
 ## Libterm
 Run this command:
