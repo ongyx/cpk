@@ -2,9 +2,10 @@
 Welcome to the repository for spkg alpha.(Sandboxed Packaged Manager)!
 (This is a branch for versions being tested.)
 
-Versions:
-spkg(OpenTerm): v0.11/Alpha
-spkg(LibTerm): v22.07.19/Prerelease
+## Versions avaliable for spkg:
+spkg(OpenTerm) | spkg(Libterm)
+------------ | -------------
+v0.11/Alpha | v22.07.19/Prerelease
 
 ## Why spkg?
 I wanted to try to integrate pip into Libterm by running the default install script,
@@ -24,7 +25,7 @@ spkg was originally written for OpenTerm.
 You can download the alpha release by following the instructions below.
 
 ## OpenTerm
-Run this commands in your shell.
+Run these commands in your shell.
 
 ```
 curl -O https://raw.githubusercontent.com/sn3ksoftware/sandpkg/testing/openterm/sandinstall.tar.gz
