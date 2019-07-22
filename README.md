@@ -2,7 +2,9 @@
 Welcome to the repository for spkg alpha.(Sandboxed Packaged Manager)!
 (This is a branch for versions being tested.)
 
-spkg is now up to version 0.11a for OpenTerm!
+Versions:
+spkg(OpenTerm): v0.11/Alpha
+spkg(LibTerm): v22.07.19/Prerelease
 
 ## Why spkg?
 I wanted to try to integrate pip into Libterm by running the default install script,
@@ -18,7 +20,8 @@ Thus, I created spkg to make it easier to test and pull software.
 
 # - Installation -
 
-spkg is finally ready for OpenTerm! You can download the alpha release by following the instructions below.
+spkg was originally written for OpenTerm.
+You can download the alpha release by following the instructions below.
 
 ## OpenTerm
 Run this commands in your shell.
@@ -28,12 +31,18 @@ curl -O https://raw.githubusercontent.com/sn3ksoftware/sandpkg/testing/openterm/
 tar -C ~/.scripts -zxvf sandinstall.tar.gz
 sandinstall
 ```
-(The installer is a bit buggy right now, so try running sandinstall at least 3 times if it does not work the first time.)
-## Libterm(WIP)
+(The installer is a bit buggy right now, so try running sandinstall muitiple times if it does not work the first time.)
+
+Later on, spkg was rewritten for the Python-based implementation of Libterm.
+So far, the code is ready for a prerelease, but there might be serious bugs.
+Please put in a issue if you find one.
+
+## Libterm
 Run this command:
 
 ```
-curl -O https://raw.githubusercontent.com/sn3ksoftware/sandpkg/testing/libterm/install.sh && sh install.sh
+curl -O https://raw.githubusercontent.com/sn3ksoftware/sandpkg/testing/libterm/install.py
+python install.py
 ```
 
 # - FAQ -
@@ -46,7 +55,6 @@ Q: Who is spkg for?
 A: CLI masters and programmers who have at least basic command-line skills.
 Also, script coders who want a easier way to distribute their code.
 
-Q: Can you please hurry up on the Libterm version? I mean, OpenTerm does not exist on the App Store anymore, etc.
-
-A: I can't really do that because I have more experience working with the Cub coding language right now. As for the Python-based implementation of Libterm, it is a lot easier to port programs over from Pythonista [for example](https://github.com/jsbain/GitHubGet), which can run without modifications, 
-but my knowledge of Python is less so than that of Cub, unfortunately. Which means that someday there will be spkg for LibTerm :)
+My knowledge of Python is now advanced now, so I rewrote spkg for Libterm.
+It is a lot easier to port programs over from Pythonista [for example](https://github.com/jsbain/GitHubGet), which can run without modifications, 
+so reusing code is easier. (Or it can act as a reference at least.)
