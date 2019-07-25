@@ -34,13 +34,14 @@ sandinstall
 ```
 (The installer is a bit buggy right now, so try running sandinstall muitiple times if it does not work the first time.)
 
+## Libterm
+
 Later on, spkg was rewritten for the Python-based implementation of Libterm.
 So far, the code is ready for a prerelease, but there might be serious bugs.
 Please put in a issue if you find one.
 For now, there is no installer script, you directly unzip spkg to the Library/scripts folder.
 
-## Libterm
-Run this command:
+Run this command(wip):
 
 ```
 curl -O https://raw.githubusercontent.com/sn3ksoftware/sandpkg/testing/libterm/install.py
