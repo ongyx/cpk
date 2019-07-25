@@ -5,7 +5,7 @@ Welcome to the repository for spkg alpha.(Sandboxed Packaged Manager)!
 ## Versions avaliable for spkg:
 spkg(OpenTerm) | spkg(Libterm)
 ------------ | -------------
-v0.11/Alpha | v23.07.19/Prerelease
+v0.11/Alpha | v25.07.19/Prerelease
 
 ## Why spkg?
 I wanted to try to integrate pip into Libterm by running the default install script,
