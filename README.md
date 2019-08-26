@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://github.com/sn3ksoftware/psiman">psiman</a> &bull;
+  <a href="https://github.com/sn3ksoftware/psidex">psidex</a> &bull;
+  <b> sandpkg </b>
+</p>
+
 # sandpkg
 Welcome to the repository for spkg alpha.(Sandboxed Packaged Manager)!
 (This is a branch for versions being tested.)
