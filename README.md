@@ -5,6 +5,8 @@
 </p>
 
 # sandpkg
+![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/sn3ksoftware/sandpkg?include_prereleases&sort=semver)
+
 Welcome to the repository for spkg alpha.(Sandboxed Packaged Manager)!
 (This is a branch for versions being tested.)
 
