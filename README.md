@@ -1,9 +1,3 @@
-<p align="center">
-  <a href="https://github.com/sn3ksoftware/psiman">psiman</a> &bull;
-  <a href="https://github.com/sn3ksoftware/psidex">psidex</a> &bull;
-  <b> sandpkg </b>
-</p>
-
 # sandpkg
 ![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/sn3ksoftware/sandpkg?include_prereleases&sort=semver)
 
