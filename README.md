@@ -1,9 +1,3 @@
-<p align="center">
-  <a href="https://github.com/sn3ksoftware/psiman">psiman</a> &bull;
-  <a href="https://github.com/sn3ksoftware/psidex">psidex</a> &bull;
-  <b> sandpkg </b>
-</p>
-
 # sandpkg
 ![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/sn3ksoftware/sandpkg?include_prereleases&sort=semver)
 
@@ -13,7 +7,7 @@ Welcome to the repository for spkg alpha.(Sandboxed Packaged Manager)!
 ## Versions avaliable for spkg:
 spkg(OpenTerm) | spkg(Libterm)
 ------------ | -------------
-v0.11/Alpha | v25.07.19/Prerelease
+v0.11/Alpha | v1.00/Alpha
 
 ## Why spkg?
 I wanted to try to integrate pip into Libterm by running the default install script,
