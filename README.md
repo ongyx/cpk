@@ -13,7 +13,7 @@ v0.11/Alpha |
 Hence, I decided to write one in Cub.
 (By the way, spkg uses [this](https://github.com/sn3ksoftware/sandboxrepo) repository by default.)
 
-# - Installation -
+# Installation
 cpk was originally written for OpenTerm.
 You can download the alpha release by following the instructions below.
 
@@ -21,17 +21,11 @@ You can download the alpha release by following the instructions below.
 Run these commands in your shell.
 
 ```
-curl -O https://raw.githubusercontent.com/sn3ksoftware/sandpkg/testing/openterm/sandinstall.tar.gz
-tar -C ~/.scripts -zxvf sandinstall.tar.gz
-sandinstall
+curl -O https://raw.githubusercontent.com/sn3ksoftware/cpk/testing/openterm/cpkinstall.tar.gz
+tar -C ~/.scripts -zxvf cpkinstall.tar.gz
+cpkinstall
 ```
-(The installer is a bit buggy right now, so try running sandinstall muitiple times if it does not work the first time.)
+(The installer is a bit buggy right now, so try running sandinstall muitiple times if it does not work the first time.
 
-# - FAQ -
-Q: I thot that Libterm has a package manager already?
-
-A: Read the point under 'What's the point of spkg?’
-
-Q: Who is cpk for?
-
-A: OpenTerm users who want a easier way to distribute their code/scripts.
+# License
+The entirety of the cpk code, including the installer, is distributed under the MIT License.
